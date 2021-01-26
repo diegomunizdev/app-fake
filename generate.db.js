@@ -1,9 +1,9 @@
-// employees.js
+// generate.db.js
 var faker = require("faker");
 
 function generateData() {
   var users = [];
-  for (var id = 0; id < 5; id++) {
+  for (var id = 0; id < 100; id++) {
     var firstName = faker.name.firstName();
     var lastName = faker.name.lastName();
     var email = faker.internet.email();
