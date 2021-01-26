@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": "y478l69zaci",
+      "first_name": "Kallie",
+      "last_name": "Kemmer",
+      "email": "Ryley.Schaefer@yahoo.com",
+      "address": {
+        "street": "Jamie Overpass",
+        "zip_code": "06247-3692",
+        "city": "Joeyborough",
+        "number": 439,
+        "state": "Pennsylvania"
+      }
+    },
+    {
+      "id": "ao9c90mvze",
+      "first_name": "Carroll",
+      "last_name": "MacGyver",
+      "email": "Stephan.Heaney@gmail.com",
+      "address": {
+        "street": "Antwon Ports",
+        "zip_code": "35064",
+        "city": "New Vernicemouth",
+        "number": 327,
+        "state": "Tennessee"
+      }
+    },
+    {
+      "id": "fus0t0ypvm",
+      "first_name": "Britney",
+      "last_name": "Bartoletti",
+      "email": "Khalil55@yahoo.com",
+      "address": {
+        "street": "Jensen Grove",
+        "zip_code": "32852-6647",
+        "city": "Lake Delaneybury",
+        "number": 748,
+        "state": "Florida"
+      }
+    },
+    {
+      "id": "0k9xlgcht5",
+      "first_name": "Elijah",
+      "last_name": "Sanford",
+      "email": "Rhea_Skiles75@hotmail.com",
+      "address": {
+        "street": "Rempel Springs",
+        "zip_code": "77864-6971",
+        "city": "Hillsland",
+        "number": 594,
+        "state": "Idaho"
+      }
+    },
+    {
+      "id": "amm68zmzxv",
+      "first_name": "Maureen",
+      "last_name": "Metz",
+      "email": "Cecile.Daugherty@gmail.com",
+      "address": {
+        "street": "Lebsack Ville",
+        "zip_code": "76239",
+        "city": "Leraside",
+        "number": 279,
+        "state": "Maine"
+      }
+    },
+    {
+      "first_name": "Xzavier Henanders",
+      "last_name": "Harber",
+      "email": "Filiberto.Mills33@gmail.com",
+      "address": {
+        "street": "Tina Lodge",
+        "zip_code": "07264-7147",
+        "city": "East Elinore",
+        "number": 996,
+        "state": "Missouri"
+      },
+      "id": "5iw9IwB"
+    },
+    {
+      "first_name": "Xzavier Henanders",
+      "last_name": "Harber",
+      "email": "Filiberto.Mills33@gmail.com",
+      "address": {
+        "street": "Tina Lodge",
+        "zip_code": "07264-7147",
+        "city": "East Elinore",
+        "number": 996,
+        "state": "Missouri"
+      },
+      "id": "7a3mgN0"
+    }
+  ]
+}
