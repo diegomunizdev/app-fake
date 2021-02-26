@@ -1,0 +1,7 @@
+{
+    "/v1/users/:id/patients?_limit=10": "/patients?_limit=10",
+    "/v1/users/:id/statistics?type=priority": "/priority",
+    "/v1/users/:id/statistics?type=comorbidities": "/comorbidities",
+    "/v1/secretaries?limit=10": "/secretaries?_limit=10",
+    "/v1/coordinators?limit=10": "/coordinators?_limit=10"
+}
