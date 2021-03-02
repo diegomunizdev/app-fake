@@ -25,18 +25,7 @@ server.use('/v1/auth', (req, res) => {
 })
 
 server.use(jsonServer.rewriter({
-  "/v1/admins/:id": "/admins/:id",
-  "/v1/secretaries/:id": "/secretaries/:id",
-  "/v1/coordinators/:id": "/coordinators/:id",
-  "/v1/users/:id/patients?limit=10": "/patients?_limit=10",
-  "/v1/users/:id/statistics?type=priority": "/priority",
-  "/v1/users/:id/statistics?type=comorbidities": "/comorbidities",
-  "/v1/secretaries?limit=10": "/secretaries?_limit=10",
-  "/v1/coordinators?limit=10": "/coordinators?_limit=10",
-  "/v1/secretaries?page=2&limit=10": "/secretaries?_page=2&_limit=10",
-  "/v1/coordinators?page=2&limit=10": "/coordinators?_page=2&_limit=10",
-  "/v1/coordinators?limit=20": "/coordinators?_limit=20",
-  "/v1/coordinators?limit=10&secretariat_city=:city": "/coordinators?_limit=10&secretariat_city=:city",
+  "/v1/alerts": "/alerts"
 }))
 
 server.use(router)
