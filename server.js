@@ -2,9 +2,13 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('database.json')
 const jwt = require('jsonwebtoken')
+<<<<<<< HEAD
 const morgan = require('morgan')
 const cors = require('cors')
 
+=======
+const cors = require('cors')
+>>>>>>> 5d3cfde191eb34f03857b87d19bbb1c4eae441a6
 // server.use(middlewares)
 /* server.use((req, res, next) => {
     if (isAuthorized(req)) { // add your authorization logic here
@@ -24,13 +28,13 @@ server.use((req, res, next) => {
 })
 server.use(cors())
 server.use(jsonServer.bodyParser)
+server.use(cors())
 server.use('/v1/auth', (req, res) => {
   const access_token = jwt.sign({
-    secretariat_city: 'Campina Grande',
-    iss: 'vacinapb',
+    iss: 'hackathon-swe',
     sub: '602183b35f4c84b513e3e380',
-    sub_type: 'admin',
-    scope: 'sc:ra co:ra',
+    sub_type: 'responsible',
+    // scope: 'sc:ra co:ra',
     // scope: 'sc:r pa:r co:r',
   }, 'secret')
   res.json({ access_token })
