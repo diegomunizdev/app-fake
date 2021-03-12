@@ -2,13 +2,9 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('database.json')
 const jwt = require('jsonwebtoken')
-<<<<<<< HEAD
 const morgan = require('morgan')
 const cors = require('cors')
 
-=======
-const cors = require('cors')
->>>>>>> 5d3cfde191eb34f03857b87d19bbb1c4eae441a6
 // server.use(middlewares)
 /* server.use((req, res, next) => {
     if (isAuthorized(req)) { // add your authorization logic here
