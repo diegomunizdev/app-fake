@@ -1,3 +1,4 @@
 {
-    "/v1/alerts": "/alerts"
+    "/v1/alerts": "/alerts",
+    "/v1/alerts?limit=30&date_time_to_send=gte:date&has_been_issued=false&sort=date_time_to_send": "/alerts?_limit=30&date_time_to_send=gte:date&has_been_issued=false&sort=date_time_to_send"
 }

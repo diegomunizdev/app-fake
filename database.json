@@ -11,74 +11,10 @@
         "arterial_hypertension",
         "people_aged_60_or_over_institutionalized"
       ],
-      "date_time_to_send": "2021-03-15T14:20:00Z",
+      "date_time_to_send": "2021-03-08T11:40:00",
       "responsible": "João Pedro",
       "responsible_id": "6035312f255c140012ff594f",
-      "has_been_issued": false
-    },
-    {
-      "id": "5a95e1123rewb972725fer342c571",
-      "created_at": "2021-02-05T10:00:30Z",
-      "updated_at": "2021-02-05T10:00:30Z",
-      "title": "VacinaPB",
-      "body": "Chegou a sua vez de ser vacinado!",
-      "groups": [
-        "people_aged_80_and_over",
-        "arterial_hypertension",
-        "people_aged_60_or_over_institutionalized"
-      ],
-      "date_time_to_send": "2021-03-15T14:20:00Z",
-      "responsible": "João Pedro",
-      "responsible_id": "6035312f255c140012ff594f",
-      "has_been_issued": false
-    },
-    {
-      "id": "5a95e1123rewb97278345eter34",
-      "created_at": "2021-02-05T10:00:30Z",
-      "updated_at": "2021-02-05T10:00:30Z",
-      "title": "VacinaPB",
-      "body": "Chegou a sua vez de ser vacinado!",
-      "groups": [
-        "people_aged_80_and_over",
-        "arterial_hypertension",
-        "people_aged_60_or_over_institutionalized"
-      ],
-      "date_time_to_send": "2021-03-15T14:20:00Z",
-      "responsible": "João Pedro",
-      "responsible_id": "6035312fgasg40012ff594f",
-      "has_been_issued": false
-    },
-    {
-      "id": "5a95eafewb972783gsdgg2c571",
-      "created_at": "2021-02-05T10:00:30Z",
-      "updated_at": "2021-02-05T10:00:30Z",
-      "title": "VacinaPB",
-      "body": "Chegou a sua vez de ser vacinado!",
-      "groups": [
-        "people_aged_80_and_over",
-        "arterial_hypertension",
-        "people_aged_60_or_over_institutionalized"
-      ],
-      "date_time_to_send": "2021-03-15T14:20:00Z",
-      "responsible": "João Pedro",
-      "responsible_id": "6035312f211ra140012ff594f",
-      "has_been_issued": false
-    },
-    {
-      "id": "5a95e1123rewb9537834592dfsg71",
-      "created_at": "2021-02-05T10:00:30Z",
-      "updated_at": "2021-02-05T10:00:30Z",
-      "title": "VacinaPB",
-      "body": "Chegou a sua vez de ser vacinado!",
-      "groups": [
-        "people_aged_80_and_over",
-        "arterial_hypertension",
-        "people_aged_60_or_over_institutionalized"
-      ],
-      "date_time_to_send": "2021-03-15T14:20:00Z",
-      "responsible": "João Pedro",
-      "responsible_id": "5a95e11d8b972783asf2c572",
-      "has_been_issued": false
+      "has_been_issued": true
     }
   ]
 }

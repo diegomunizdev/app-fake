@@ -2,6 +2,8 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('database.json')
 const jwt = require('jsonwebtoken')
+const morgan = require('morgan')
+const cors = require('cors')
 
 // server.use(middlewares)
 /* server.use((req, res, next) => {
@@ -11,6 +13,16 @@ const jwt = require('jsonwebtoken')
         res.sendStatus(401)
     }
 }) */
+server.use(morgan(':method => :url'))
+server.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Credentials", "true");
+  res.setHeader("Access-Control-Allow-Methods", "GET,HEAD,PATCH,OPTIONS,POST,PUT,DELETE");
+  res.setHeader("Access-Control-Allow-Headers", "Authorization, Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers");
+  res.setHeader("Access-Control-Expose-Headers", "x-total-count")
+  next()
+})
+server.use(cors())
 server.use(jsonServer.bodyParser)
 server.use('/v1/auth', (req, res) => {
   const access_token = jwt.sign({
