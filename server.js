@@ -37,7 +37,8 @@ server.use('/v1/auth', (req, res) => {
 })
 
 server.use(jsonServer.rewriter({
-  "/v1/alerts": "/alerts"
+  "/v1/alerts": "/alerts",
+  "/v1/students": "/students"
 }))
 
 server.use(router)
