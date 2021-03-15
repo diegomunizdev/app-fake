@@ -38,10 +38,11 @@ server.use('/v1/auth', (req, res) => {
 
 server.use(jsonServer.rewriter({
   "/v1/alerts": "/alerts",
-  "/v1/students": "/students"
+  "/v1/kids": "/kids"
 }))
 
 server.use(router)
+
 server.listen(3002, () => {
   console.log('JSON Server is running')
 })
