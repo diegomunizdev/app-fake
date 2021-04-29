@@ -1,10 +1,24 @@
 {
-  "notifications": [
+  "managers": [
     {
-      "id": "5a95e11d8b9dafe834592c571",
-      "created_at": "2021-02-05T10:00:30Z",
-      "title": "A vacina chegou!",
-      "message": "Procure a secretaria da sua cidade para mais informações."
+      "id": "5a62be07de34500146d9c540",
+      "created_at": "2021-05-05T10:00:30Z",
+      "updated_at": "2021-05-05T10:00:30Z",
+      "name": "Daniela Ferreira de Souza",
+      "cpf": "12345678901",
+      "birth_date": "1993-01-31",
+      "phone": "(83) 99999-9999",
+      "email": "daniela@mail.com",
+      "address": {
+        "zip_code": "58400506",
+        "street": "Av. Mal. Floriano Peixoto",
+        "number": "1045",
+        "district": "Centenário",
+        "city": "Campina Grande",
+        "state": "Paraíba",
+        "complement": "Próximo à Prefeitura"
+      },
+      "last_login": "2021-05-01T14:40:00"
     }
   ]
 }

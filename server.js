@@ -27,8 +27,8 @@ server.use(jsonServer.bodyParser)
 server.use(cors())
 server.use('/v1/auth', (req, res) => {
   const access_token = jwt.sign({
-    iss: 'hackathon-swe',
-    sub: '602183b35f4c84b513e3e380',
+    iss: 'teste',
+    sub: '5a62be07de34500146d9c540',
     sub_type: 'responsible',
     // scope: 'sc:ra co:ra',
     // scope: 'sc:r pa:r co:r',
@@ -37,7 +37,7 @@ server.use('/v1/auth', (req, res) => {
 })
 
 server.use(jsonServer.rewriter({
-  "/v1/notifications": "/notifications"
+  "/v1/managers": "/managers"
 }))
 
 server.use(router)
